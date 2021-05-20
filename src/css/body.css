@@ -1,0 +1,55 @@
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  background: #233142;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+
+#callList {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  border-style: groove;
+  border-width: 3px;
+  list-style-type: none;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+#date {
+  margin-top: 2px;
+  margin-left: 40%;
+}
+
+#mainDescrition {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#subDescrition {
+  font-size: 12px;
+}
+
+#callTime {
+  margin-right: 10px;
+}
+
+#callImg {
+  width: 70px;
+  background-image: none;
+}
