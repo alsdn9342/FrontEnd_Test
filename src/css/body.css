@@ -20,6 +20,21 @@ body {
   line-height: 1;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#inbox,
+#allCalls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  font-size: large;
+  cursor: pointer;
+}
+
 #callList {
   display: flex;
   justify-content: space-between;
@@ -52,4 +67,15 @@ body {
 #callImg {
   width: 70px;
   background-image: none;
+}
+
+#archieved {
+  text-align: center;
+  font-size: large;
+  margin-top: 30px;
+}
+
+#archieveBtn {
+  margin-top: 10px;
+  margin-left: 40%;
 }
